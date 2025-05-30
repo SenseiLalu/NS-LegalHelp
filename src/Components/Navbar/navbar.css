@@ -1,0 +1,297 @@
+/* Base styles */
+.navbar {
+    height: 60px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 0.75rem 1.5rem;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+    height: 10%;
+    object-fit: contain;
+  }
+
+  .logo-img :hover{
+    color: rgb(12, 253, 225);
+  }
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-menu-section {
+    border-top: 2px solid rgb(12, 253, 225);
+    border-bottom: 2px solid rgb(12, 253, 225);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-top-left-radius: 20px;   /* <-- round top-left corner */
+    border-bottom-left-radius: 20px; /* <-- round bottom-left corner */
+    overflow: hidden; /* optional, in case child elements overflow the corners */
+    background-color: white; /* optional, to match design */
+}
+
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: rgb(12, 253, 225);
+    cursor: pointer;
+}
+
+/* Menu styles */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    transition: all 0.3s ease;
+    /* margin-right: 150px; */
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.6rem 0.8rem;
+    border-radius: 4px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.menu-item:hover>a {
+    background-color: rgb(12, 221, 196);
+    transform: translateY(-2px);
+}
+
+/* Submenu styles */
+.submenu {
+    /* position: absolute; */
+    top: 30px;
+    right: 0px;
+    background-color: #fcfcfd;
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    min-width: 300px;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.menu-item:hover .submenu,
+.menu-item:hover .mega-submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.submenu-item a {
+    padding: 0.6rem 1rem;
+    display: block;
+    color: rgb(42, 42, 42);
+    text-decoration: none;
+    transition: background 0.3s ease;
+    font-size: small;
+}
+
+.submenu-item a:hover {
+    background-color: rgb(12, 221, 196);
+}
+
+/* Mega submenu styles */
+.mega-submenu {
+    position: fixed;
+    /* Use fixed to center relative to the screen */
+    top: 65px;
+    /* Adjust as needed */
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: #fcfcfd;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 339px;
+    max-width: 90vw;
+    /* Prevents overflow */
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, 10px);
+    /* Add Y offset for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+
+
+.submenu-heading {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+
+}
+
+.submenu-columns {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.submenu-column-heading {
+    color: rgb(7, 156, 138);
+    font-weight: 700;
+    /* font-size: 1.1rem; */
+    margin-bottom: 0.5rem;
+}
+
+.submenu-column {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 330px;
+    border-left: 1px solid #ddd;
+    padding-left: 1rem;
+}
+
+.submenu-column:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        transform: translateX(133px);
+    }
+
+    .menu {
+        position: absolute;
+        z-index: 1000;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        background-color: #ffffff;
+        width: 339px;
+        display: none;
+        padding: 1rem 0;
+        box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu.open {
+        display: flex;
+        animation: slideIn 0.3s ease forwards;
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .menu-item {
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        padding: 0.5rem 0rem;
+    }
+
+    .menu-item:last-child {
+        border-bottom: none; /* Remove line after last item */
+      }
+
+    .menu-item a {
+        padding: 0.8rem 1.5rem;
+    }
+
+    .submenu,
+    .mega-submenu {
+        position: static;
+        background-color: #ffffff;
+        border-radius: 0;
+        padding: 0;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .submenu-item a {
+        padding: 0.6rem 2.5rem;
+    }
+
+    .mega-submenu {
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+    }
+
+    .submenu-columns {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .submenu-column {
+        border-left: none;
+        padding-left: 0;
+    }
+}
+
+.brand h2 {
+    /* height: 35px;
+    width: auto; */
+    object-fit: contain;
+    /* position: absolute; */
+    top: 50%;
+    font-size: larger;
+    /* transform: translateY(-155%);  */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ns-legal-link {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .ns-legal-link:hover {
+    background-color: #138496; /* Highlight on hover */
+    color: white;              /* Change text color on hover */
+    border-color: #e3b305;     /* Optional: match border */
+    cursor: pointer;
+  }
+  

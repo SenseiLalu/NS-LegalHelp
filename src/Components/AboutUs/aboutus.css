@@ -1,0 +1,151 @@
+.aboutus-container {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .aboutus-note-card {
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .aboutus-note-card h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .aboutus-note-card p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .team-section {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .team-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .team-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .team-details {
+    flex: 1;
+  }
+  
+  .team-details h3 {
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    color: #444;
+  }
+  
+  .role {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  .aboutus-container {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .aboutus-note-card {
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .aboutus-note-card h2 {
+    margin-bottom: 15px;
+    color: #ff7104;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .aboutus-note-card p {
+    font-size: 1.1rem;
+    color: #5f5d5d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .team-section {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .team-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .team-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .team-details {
+    flex: 1;
+  }
+  
+  .team-details h3 {
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    color: #ff7104;;
+  }
+  
+  .role {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
