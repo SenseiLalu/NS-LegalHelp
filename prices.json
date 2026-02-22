@@ -1,0 +1,181 @@
+{
+        "Private Limited Company": {
+            "Andaman and Nicobar Islands": { "essential": "6499", "enhanced": "16199" },
+            "Andhra Pradesh": { "essential": "6499", "enhanced": "16199" },
+            "Arunachal Pradesh": { "essential": "6499", "enhanced": "16199" },
+            "Assam(Dispur)": { "essential": "6499", "enhanced": "16199" },
+            "Bihar(Patna)": { "essential": "6499", "enhanced": "16199" },
+            "Chandigarh": { "essential": "6499", "enhanced": "16199" },
+            "Chhattisgarh": { "essential": "6499", "enhanced": "16199" },
+            "Dadra and Nagar Haveli": { "essential": "6499", "enhanced": "16199" },
+            "Daman and Due": { "essential": "6999", "enhanced": "16199" },
+            "Delhi": { "essential": "6499", "enhanced": "16199" },
+            "Goa(Panaji)": { "essential": "6499", "enhanced": "16199" },
+            "Gujarat(Gandhinagar)": { "essential": "6499", "enhanced": "16199" },
+            "Haryana(Chandigarh)": { "essential": "6499", "enhanced": "16199" },
+            "Himachal Pradesh(Shimla)": { "essential": "6499", "enhanced": "16199" },
+            "Jammu and Kashmir": { "essential": "6499", "enhanced": "16199" },
+            "Jharkhand(Ranchi)": { "essential": "6499", "enhanced": "16199" },
+            "Karnataka(Bangalore)": { "essential": "6499", "enhanced": "33799" },
+            "Kerala(Thiruvananthapuram)": { "essential": "6499", "enhanced": "16199" },
+            "Lakshadweep": { "essential": "9199", "enhanced": "11999" },
+            "Madhya Pradesh(Bhopal)": { "essential": "6499", "enhanced": "31199" },
+            "Maharashtra(Mumbai)": { "essential": "6499", "enhanced": "9999" },
+            "Manipur(Imphal)": { "essential": "6499", "enhanced": "9999" },
+            "Meghalaya": { "essential": "6499", "enhanced": "9999" },
+            "Mizoram(Aizawl)": { "essential": "6499", "enhanced": "9999" },
+            "Nagaland(Kohima)": { "essential": "6499", "enhanced": "9999" },
+            "Odisha(Bhubaneshwar)": { "essential": "6499", "enhanced": "9999" },
+            "Puducherry": { "essential": "6499", "enhanced": "9999" },
+            "Punjab": { "essential": "6499", "enhanced": "33799" },
+            "Rajasthan": { "essential": "6499", "enhanced": "29199" },
+            "Sikkim": { "essential": "6499", "enhanced": "9999" },
+            "Tamil Nadu": { "essential": "6499", "enhanced": "9999" },
+            "Telangana": { "essential": "6499", "enhanced": "9999" },
+            "Tripura": { "essential": "6499", "enhanced": "9999" },
+            "Uttarakhand(Dehradun)": { "essential": "6499", "enhanced": "9999" },
+            "Uttar Pradesh(Lucknow)": { "essential": "6499", "enhanced": "9999" },
+            "West Bengal(Kolkata)": { "essential": "6499", "enhanced": "9999" }
+        },
+        "Limited Liabilty Partnership": {
+            "essential": "6199/-",
+            "enhanced": "10,999/-"
+        }, "Sole Proprietorship": {
+            "essential": "1499/-",
+            "enhanced": "2999/-"
+        }, "Hindu Undivided Family,HUF Deed": {
+            "essential": "3799/-",
+            "enhanced": "5499/-"
+        }, "One Person Company (OPC)": {
+            "Andaman and Nicobar Islands": { "essential": "6499", "enhanced": "16199" },
+            "Andhra Pradesh": { "essential": "6499", "enhanced": "16199" },
+            "Arunachal Pradesh": { "essential": "6499", "enhanced": "16199" },
+            "Assam(Dispur)": { "essential": "6499", "enhanced": "16199" },
+            "Bihar(Patna)": { "essential": "6499", "enhanced": "16199" },
+            "Chandigarh": { "essential": "6499", "enhanced": "16199" },
+            "Chhattisgarh": { "essential": "6499", "enhanced": "16199" },
+            "Dadra and Nagar Haveli": { "essential": "6499", "enhanced": "16199" },
+            "Daman and Due": { "essential": "6999", "enhanced": "16199" },
+            "Delhi": { "essential": "6499", "enhanced": "16199" },
+            "Goa(Panaji)": { "essential": "6499", "enhanced": "16199" },
+            "Gujarat(Gandhinagar)": { "essential": "6499", "enhanced": "16199" },
+            "Haryana(Chandigarh)": { "essential": "6499", "enhanced": "16199" },
+            "Himachal Pradesh(Shimla)": { "essential": "6499", "enhanced": "16199" },
+            "Jammu and Kashmir": { "essential": "6499", "enhanced": "16199" },
+            "Jharkhand(Ranchi)": { "essential": "6499", "enhanced": "16199" },
+            "Karnataka(Bangalore)": { "essential": "6499", "enhanced": "33799" },
+            "Kerala(Thiruvananthapuram)": { "essential": "9199", "enhanced": "11999" },
+            "Lakshadweep": { "essential": "6499", "enhanced": "16199" },
+            "Madhya Pradesh(Bhopal)": { "essential": "6499", "enhanced": "31199" },
+            "Maharashtra(Mumbai)": { "essential": "6499", "enhanced": "9999" },
+            "Manipur(Imphal)": { "essential": "6499", "enhanced": "9999" },
+            "Meghalaya": { "essential": "6499", "enhanced": "9999" },
+            "Mizoram(Aizawl)": { "essential": "6499", "enhanced": "9999" },
+            "Nagaland(Kohima)": { "essential": "6499", "enhanced": "9999" },
+            "Odisha(Bhubaneshwar)": { "essential": "6499", "enhanced": "9999" },
+            "Puducherry": { "essential": "6499", "enhanced": "9999" },
+            "Punjab": { "essential": "6499", "enhanced": "33799" },
+            "Rajasthan": { "essential": "6499", "enhanced": "29199" },
+            "Sikkim": { "essential": "6499", "enhanced": "9999" },
+            "Tamil Nadu": { "essential": "6499", "enhanced": "9999" },
+            "Telangana": { "essential": "6499", "enhanced": "9999" },
+            "Tripura": { "essential": "6499", "enhanced": "9999" },
+            "Uttarakhand(Dehradun)": { "essential": "6499", "enhanced": "9999" },
+            "Uttar Pradesh(Lucknow)": { "essential": "6499", "enhanced": "9999" },
+            "West Bengal(Kolkata)": { "essential": "6499", "enhanced": "9999" }
+        }, "Partnership": {
+            "essential": "2199/-",
+            "enhanced": "4000/-"
+        }, "E-Commerce Business": {
+            "Andaman and Nicobar Islands": { "essential": "6499", "enhanced": "16199" },
+            "Andhra Pradesh": { "essential": "6499", "enhanced": "16199" },
+            "Arunachal Pradesh": { "essential": "6499", "enhanced": "16199" },
+            "Assam(Dispur)": { "essential": "6499", "enhanced": "16199" },
+            "Bihar(Patna)": { "essential": "6499", "enhanced": "16199" },
+            "Chandigarh": { "essential": "6499", "enhanced": "16199" },
+            "Chhattisgarh": { "essential": "6499", "enhanced": "16199" },
+            "Dadra and Nagar Haveli": { "essential": "6499", "enhanced": "16199" },
+            "Daman and Due": { "essential": "6999", "enhanced": "16199" },
+            "Delhi": { "essential": "6499", "enhanced": "16199" },
+            "Goa(Panaji)": { "essential": "6499", "enhanced": "16199" },
+            "Gujarat(Gandhinagar)": { "essential": "6499", "enhanced": "16199" },
+            "Haryana(Chandigarh)": { "essential": "6499", "enhanced": "16199" },
+            "Himachal Pradesh(Shimla)": { "essential": "6499", "enhanced": "16199" },
+            "Jammu and Kashmir": { "essential": "6499", "enhanced": "16199" },
+            "Jharkhand(Ranchi)": { "essential": "6499", "enhanced": "16199" },
+            "Karnataka(Bangalore)": { "essential": "6499", "enhanced": "33799" },
+            "Kerala(Thiruvananthapuram)": { "essential": "6499", "enhanced": "26799" },
+            "Lakshadweep": { "essential": "6499", "enhanced": "16199" },
+            "Madhya Pradesh(Bhopal)": { "essential": "6499", "enhanced": "31199" },
+            "Maharashtra(Mumbai)": { "essential": "6499", "enhanced": "9999" },
+            "Manipur(Imphal)": { "essential": "6499", "enhanced": "9999" },
+            "Meghalaya": { "essential": "6499", "enhanced": "9999" },
+            "Mizoram(Aizawl)": { "essential": "6499", "enhanced": "9999" },
+            "Nagaland(Kohima)": { "essential": "6499", "enhanced": "9999" },
+            "Odisha(Bhubaneshwar)": { "essential": "6499", "enhanced": "9999" },
+            "Puducherry": { "essential": "6499", "enhanced": "9999" },
+            "Punjab": { "essential": "6499", "enhanced": "33799" },
+            "Rajasthan": { "essential": "6499", "enhanced": "29199" },
+            "Sikkim": { "essential": "6499", "enhanced": "9999" },
+            "Tamil Nadu": { "essential": "6499", "enhanced": "9999" },
+            "Telangana": { "essential": "6499", "enhanced": "9999" },
+            "Tripura": { "essential": "6499", "enhanced": "9999" },
+            "Uttarakhand(Dehradun)": { "essential": "6499", "enhanced": "9999" },
+            "Uttar Pradesh(Lucknow)": { "essential": "6499", "enhanced": "9999" },
+            "West Bengal(Kolkata)": { "essential": "6499", "enhanced": "9999" }
+        }
+        , "Non Profit Organization": {
+            "essential": "12999/-",
+            "enhanced": "21999/-"
+        },
+        "GST Return": {
+            "essential": "499/-",
+            "enhanced": "1198/-"
+        },
+        "TDS Return": {
+            "essential": "499/-",
+            "enhanced": "1198/-"
+        },
+        "PF Return": {
+            "essential": "499/-",
+            "enhanced": "1198/-"
+        },
+        "GST Registration": {
+            "essential": "499/-",
+            "enhanced": "1198/-"
+        },
+        "Income Tex Return": {
+            "essential": "499/-",
+            "enhanced": "1198/-"
+        },
+        "Private Limited Comapny Annual Filling": {
+            "essential": "3,999/-",
+            "enhanced": "15,999/-"
+        },
+        "OPC Annual Filling": {
+            "essential": "3,999/-",
+            "enhanced": "14,999/-"
+        },
+        "LLP Annual Filling": {
+            "essential": "1,499/-",
+            "enhanced": "8,999/-"
+        },
+        "NPO/Section-8 Comapny Annual Filling": {
+            "essential": "5,999/-",
+            "enhanced": "20,999/-"
+        },
+        "Nidhi Company Annual Filling": {
+            "essential": "6,999/-",
+            "enhanced": "23,999/-"
+        },
+        "IEC Registration": {
+            "essential": "2,999/-",
+            "enhanced": "3,999/-"
+        },
+        "GST Registation": {
+            "essential": "999/-",
+            "enhanced": "2,999/-"
+        }
+
+
+    }
