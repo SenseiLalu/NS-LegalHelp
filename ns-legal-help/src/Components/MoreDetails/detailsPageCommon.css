@@ -1,0 +1,141 @@
+.details-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header with back button and title */
+.details-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 10px;
+}
+
+.section-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Allow image to grow to its container */
+  display: block;
+  margin: 10px auto 20px auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+
+/* .back-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(7, 148, 131);
+  padding: 0;
+  margin: 0;
+}  */
+
+.details-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(7, 148, 131);
+  margin: 0;
+}
+
+/* Content section */
+.details-content {
+  font-size: 18px;
+  color: #555555;
+}
+
+/* Headings inside content */
+.details-content h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  color: #34495e;
+}
+
+/* List styling */
+.details-content ul,
+.details-content ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+
+.details-content li {
+  margin-bottom: 8px;
+}
+
+/* Paragraphs */
+.details-content p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* Highlighted text */
+.highlight {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Table styling */
+.table-responsive {
+  overflow-x: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.styled-table thead {
+  background-color: #f4f4f4;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .details-container {
+    padding: 16px;
+    margin: 20px;
+  }
+
+  .details-title {
+    font-size: 24px;
+  }
+
+  .details-content {
+    font-size: 16px;
+  }
+
+  .details-content h2 {
+    font-size: 20px;
+  }
+
+  .back-button {
+    font-size: 20px;
+  }
+}

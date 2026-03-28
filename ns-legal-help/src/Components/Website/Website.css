@@ -1,0 +1,172 @@
+/* Main Container */
+.website-container {
+  margin-top: 60px;
+  padding: 50px 20px;
+  background: linear-gradient(180deg, #eaf6f6, #ffffff);
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Title */
+.website-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #222;
+  background: linear-gradient(90deg, #0056b3, #00a896);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.website-subtitle {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+/* Menu Buttons */
+.website-menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.menu-btn {
+  padding: 10px 22px;
+  border: 2px solid #00a896;
+  background: white;
+  color: #00a896;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-btn:hover,
+.menu-btn.active {
+  background: #00a896;
+  color: white;
+}
+
+/* Cards Layout */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+/* Individual Card */
+.package-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.package-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Highlight for Popular Package */
+.highlight-card {
+  border: 2px solid #007bff;
+}
+
+.tag-label {
+  background: linear-gradient(90deg, #007bff, #00a896);
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Package Texts */
+.package-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.package-price {
+  font-size: 26px;
+  color: #00a896;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Features */
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.feature-icon {
+  margin-right: 8px;
+  color: #00a896;
+}
+
+/* Buy Button */
+.buy-btn {
+  background: linear-gradient(90deg, #00a896, #007bff);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: linear-gradient(90deg, #007bff, #00a896);
+}
+
+/* Custom Quote Section */
+.custom-quote {
+  margin-top: 40px;
+  font-size: 16px;
+  color: #555;
+}
+
+.custom-link {
+  display: inline-block;
+  margin-top: 6px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .website-title {
+    font-size: 26px;
+  }
+
+  .package-price {
+    font-size: 22px;
+  }
+}

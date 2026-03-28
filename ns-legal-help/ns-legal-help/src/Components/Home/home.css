@@ -1,0 +1,401 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0rem;
+    /* min-height: 100vh; */
+    background: linear-gradient(135deg, #000000, #434343);
+    /* background-image: ; */
+    box-sizing: border-box;
+}
+
+.home-image img {
+    width: 69%;
+    max-width: 273px;
+    height: auto;
+    row-gap: 20px;
+    /* border-radius: 12px; */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+}
+
+.home-message {
+    margin-left: 12rem;
+    max-width: 498px;
+}
+
+.home-message h1 {
+    font-size: 1.5rem;
+    color: rgb(12, 221, 196);
+}
+
+.home-message p {
+    font-size: 1.2rem;
+    color: #c7c6c6;
+    margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-message {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+.subcard-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem auto;
+    padding: 0 0rem;
+    max-width: 1200px;
+}
+
+.subcard {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: calc(100% / 6 - 1rem);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.subcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subcard-icon {
+    font-size: 2rem;
+    color: #333;
+}
+
+.subcard-title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .subcard {
+        width: calc(100% / 3 - 1rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .subcard {
+        width: calc(100% / 2 - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .subcard {
+        width: 100%;
+    }
+}
+
+.services {
+    color: rgb(7, 148, 131);
+    margin: 2px;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+/* ---------------------------- */
+.about-us {
+    display: flex;
+    justify-content: right; /* Push to the right */
+    align-items: center;
+    padding: 75px;
+    margin-left: 127px;
+    /* margin-right: 5%; */
+  }
+  
+  .about-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    .about-us {
+      justify-content: center;
+      margin-right: 0;
+    }
+  
+    .about-button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-button {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* -----------slider------------ */
+  .home-carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+/* Show slick arrows */
+.slick-prev, .slick-next {
+    display: block !important;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .slick-prev {
+    left: 10px !important;
+  }
+  
+  .slick-next {
+    right: 10px !important;
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 30px;
+    color: #079483;
+    background-color: #000000; /* Change to white or another color if needed */
+  }
+  
+  /* --------Why Choose Us-------- */
+  .why-us-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #02fba4 , #ffffff);
+    text-align: center;
+  }
+  
+  .why-heading {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #434343;
+    margin-bottom: 40px;
+  }
+  
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .why-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+  }
+  
+  .why-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  .why-card h3 {
+    font-size: 20px;
+    color: #111827;
+    margin-bottom: 10px;
+  }
+  
+  .why-card p {
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  
+
+  /* --------------Client Testimonials---------------------- */
+  .testimonials-section {
+    background: linear-gradient(135deg, #ffd500 , #ffffff);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000000;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .testimonial-card {
+    background-color: #ffd500;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    color: #374151;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    position: relative;
+  }
+  
+  .testimonial-text::before {
+    content: "“";
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    color: #6366f1;
+  }
+  
+  .testimonial-client {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .testimonial-client img {
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 2px solid #6366f1;
+  }
+  
+  .testimonial-client strong {
+    color: #1f2937;
+    font-size: 16px;
+  }
+  
+  .testimonial-client p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  /* -------------Call to Action------------- */
+
+  .cta-section {
+    background: linear-gradient(135deg, #08d0f3, #e3e2e2);
+    padding: 60px 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .cta-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .cta-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .cta-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    padding: 12px 28px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #08d0f3;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-button:hover {
+    background-color: #e0e7ff;
+    color: #3730a3;
+  }
+
+/* -----------Call to Action----------- */
+
+  .stats-section {
+    background: linear-gradient(135deg, #ffffff, #fdfdfd);;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .stat-box h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #079483;
+  }
+  
+  .stat-box p {
+    font-size: 16px;
+    color: #374151;
+    margin-top: 10px;
+  }
+  
+  
