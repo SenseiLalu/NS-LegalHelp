@@ -1,8 +1,8 @@
 {
         "Private Limited Company": {
                  "label": {
-    "essential": "Includes Govt. Fees & Stamp Duty",
-    "enhanced": "Everything Included + Priority Processing"
+    "essentialLabel": "Includes Govt. Fees & Stamp Duty",
+    "enhancedLabel": "Everything Included + Priority Processing"
   },
             "Andaman and Nicobar Islands": { "essential": "7199", "enhanced": "9999" },
             "Andhra Pradesh": { "essential": "7199", "enhanced": "9999" },
