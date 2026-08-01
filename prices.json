@@ -239,8 +239,8 @@
         , "Non Profit Organization": {
             "essential": "12999/-",
             "enhanced": "21999/-",
-            "essentialLabel": "All Inclusive",
-            "enhancedLabel": "All Inclusive"
+            "essentialLabel": "Best for startups or small NGOs aiming for quick Section 8 registration.",
+            "enhancedLabel": "Best for NGOs aiming for full compliance, fundraising, and post-registration guidance."
         },
         "GST Return": {
             "essential": "499/-",
