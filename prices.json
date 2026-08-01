@@ -234,7 +234,9 @@
         }
         , "Non Profit Organization": {
             "essential": "12999/-",
-            "enhanced": "21999/-"
+            "enhanced": "21999/-",
+            "essentialLabel": "All Inclusive",
+            "enhancedLabel": "All Inclusive"
         },
         "GST Return": {
             "essential": "499/-",
@@ -286,7 +288,9 @@
         },
         "Company Registration In USA": {
             "essential": "59,999/-",
-            "enhanced": "89,999/-"
+            "enhanced": "89,999/-",
+            "essentialLabel": "Perfect for entrepreneurs who want essential company formation support.",
+            "enhancedLabel": "Ideal for founders looking for a complete business setup in the United States."
         }
 
 
