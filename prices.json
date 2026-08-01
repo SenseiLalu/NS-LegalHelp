@@ -75,7 +75,9 @@
         },
         "Limited Liabilty Partnership": {
             "essential": "6199/-",
-            "enhanced": "9,999/-"
+            "enhanced": "9,999/-",
+            "essentialLabel": "Best for startups and small businesses looking for basic LLP registration.",
+            "enhancedLabel": "Best for businesses seeking LLP registration with GST and post-registration support."
         }, "Sole Proprietorship": {
             "essential": "1499/-",
             "enhanced": "2999/-"
