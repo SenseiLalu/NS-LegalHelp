@@ -81,7 +81,9 @@
             "enhanced": "2999/-"
         }, "Hindu Undivided Family,HUF Deed": {
             "essential": "3799/-",
-            "enhanced": "5499/-"
+            "enhanced": "5499/-",
+            "essentialLabel": "Best for families seeking HUF deed registration with PAN application.",
+            "enhancedLabel": "Best for families seeking HUF deed registration with PAN and GST registration."
         }, "One Person Company (OPC)": {
             "Andaman and Nicobar Islands": { "essential": "7199", "enhanced": "16199" ,"essentialLabel": "Best for solo entrepreneurs looking for full basic OPC registration.",
     "enhancedLabel": "Best for businesses seeking OPC registration with GST and post-registration Support"},
