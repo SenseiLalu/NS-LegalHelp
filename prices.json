@@ -255,8 +255,10 @@
             "enhanced": "1198/-"
         },
         "GST Registration": {
-            "essential": "499/-",
-            "enhanced": "1198/-"
+            "essential": "1499/-",
+            "enhanced": "1198/-",
+            "essentialLabel": "Best for proprietors, freelancers, and small businesses looking for GST registration.",
+            "enhancedLabel": "Best for businesses requiring complete GST registration assistance and compliance support."
         },
         "Income Tex Return": {
             "essential": "499/-",
