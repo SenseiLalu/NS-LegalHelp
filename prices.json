@@ -297,6 +297,12 @@
             "enhanced": "89,999/-",
             "essentialLabel": "Perfect for entrepreneurs who want essential company formation support.",
             "enhancedLabel": "Ideal for founders looking for a complete business setup in the United States."
+        },
+        "DIN Application": {
+            "essential": "2,499/-",
+            "enhanced": "3,999/-",
+            "essentialLabel": "Best for individuals who already have a valid Digital Signature Certificate (DSC).",
+            "enhancedLabel": "Best for individuals requiring both DIN and DSC."
         }
 
 
