@@ -303,6 +303,12 @@
             "enhanced": "3,999/-",
             "essentialLabel": "Best for individuals who already have a valid Digital Signature Certificate (DSC).",
             "enhancedLabel": "Best for individuals requiring both DIN and DSC."
+        },
+        "DSC Registration": {
+            "essential": "1,999/-",
+            "enhanced": "2,499/-",
+            "essentialLabel": "Best for Individuals, Proprietors, Professionals, Directors, and Designated Partners.",
+            "enhancedLabel": "Best for Companies, LLPs, Partnership Firms, Trusts, NGOs, and Other Organizations."
         }
 
 
