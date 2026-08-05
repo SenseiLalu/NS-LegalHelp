@@ -315,6 +315,12 @@
             "enhanced": "4,499/-",
             "essentialLabel": "Best for businesses seeking ESIC registration and statutory compliance.",
             "enhancedLabel": "Best for businesses seeking ESIC registration along with employee onboarding support."
+        },
+        "FSSAI Registration": {
+            "essential": "1,899/-",
+            "enhanced": "5,999/-",
+            "essentialLabel": "Best for small food businesses, home kitchens, food startups, and petty food operators.",
+            "enhancedLabel": "Best for restaurants, food manufacturers, distributors, exporters, and growing food businesses."
         }
 
 
