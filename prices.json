@@ -309,6 +309,12 @@
             "enhanced": "2,499/-",
             "essentialLabel": "Best for Individuals, Proprietors, Professionals, Directors, and Designated Partners.",
             "enhancedLabel": "Best for Companies, LLPs, Partnership Firms, Trusts, NGOs, and Other Organizations."
+        },
+        "ESIC Registration": {
+            "essential": "1,999/-",
+            "enhanced": "4,499/-",
+            "essentialLabel": "Best for businesses seeking ESIC registration and statutory compliance.",
+            "enhancedLabel": "Best for businesses seeking ESIC registration along with employee onboarding support."
         }
 
 
