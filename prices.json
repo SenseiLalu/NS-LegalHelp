@@ -286,7 +286,9 @@
         },
         "IEC Registration": {
             "essential": "2,999/-",
-            "enhanced": "3,999/-"
+            "enhanced": "3,999/-",
+            "essentialLabel": "Individuals, startups, proprietorships, and businesses starting import-export operations.",
+            "enhancedLabel": "best for Businesses requiring IEC registration along with Digital Signature support."
         },
         "GST Registation": {
             "essential": "999/-",
