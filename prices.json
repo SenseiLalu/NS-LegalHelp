@@ -329,6 +329,12 @@
             "enhanced": "2,999/-",
             "essentialLabel": "Best for businesses requiring modification of their existing IEC Registration.",
             "enhancedLabel": "Best for businesses requiring IEC modification along with a new Digital Signature Certificate (DSC)."
+        },
+        "MSME Registration": {
+            "essential": "1,499/-",
+            "enhanced": "3,499/-",
+            "essentialLabel": "Best for startups, freelancers, proprietors, and small businesses seeking MSME recognition and government benefits.",
+            "enhancedLabel": "Best for businesses looking to obtain both MSME Registration and GST Registration through a single package."
         }
 
 
