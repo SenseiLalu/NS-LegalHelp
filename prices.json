@@ -321,6 +321,12 @@
             "enhanced": "5,999/-",
             "essentialLabel": "Best for small food businesses, home kitchens, food startups, and petty food operators.",
             "enhancedLabel": "Best for restaurants, food manufacturers, distributors, exporters, and growing food businesses."
+        },
+        "IEC Modification": {
+            "essential": "2,199/-",
+            "enhanced": "2,999/-",
+            "essentialLabel": "Best for businesses requiring modification of their existing IEC Registration.",
+            "enhancedLabel": "Best for businesses requiring IEC modification along with a new Digital Signature Certificate (DSC)."
         }
 
 
