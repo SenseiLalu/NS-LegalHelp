@@ -244,7 +244,9 @@
         },
         "GST Return": {
             "essential": "499/-",
-            "enhanced": "1198/-"
+            "enhanced": "7,499/-",
+            "essentialLabel": "Best for businesses with NIL GST returns.",
+            "enhancedLabel": "Best for businesses requiring regular GST return filing throughout the year."
         },
         "TDS Return": {
             "essential": "499/-",
