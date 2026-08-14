@@ -341,6 +341,12 @@
             "enhanced": "999/-",
             "essentialLabel": "Best for individuals applying for a new PAN Card.",
             "enhancedLabel": "Best for businesses and individuals requiring PAN and TAN together."
+        },
+        "TAN Application": {
+            "essential": "499/-",
+            "enhanced": "999/-",
+            "essentialLabel": "Best for businesses applying for a new TAN.",
+            "enhancedLabel": "Best for newly registered businesses requiring both PAN and TAN."
         }
 
 
