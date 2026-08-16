@@ -245,8 +245,10 @@
         "GST Return": {
             "essential": "499/-",
             "enhanced": "7,499/-",
+            "premium": "12,999/-",
             "essentialLabel": "Best for businesses with NIL GST returns.",
-            "enhancedLabel": "Best for businesses requiring regular GST return filing throughout the year."
+            "enhancedLabel": "Best for businesses requiring regular GST return filing throughout the year.",
+            "premiumLabel": "Best for businesses requiring complete GST return filing and compliance support."
         },
         "TDS Return": {
             "essential": "499/-",
@@ -263,8 +265,12 @@
             "enhancedLabel": "Best for businesses requiring complete GST registration assistance and compliance support."
         },
         "Income Tex Return": {
-            "essential": "499/-",
-            "enhanced": "1198/-"
+            "essential": "999/-",
+            "enhanced": "1,999/-",
+            "premium": "3,499/-",
+            "essentialLabel": "Best suited for salaried individuals with basic income sources.",
+            "enhancedLabel": "Suitable for freelancers, consultants, and individuals with multiple income sources.",
+            "premiumLabel": "Designed for taxpayers whose accounts are subject to audit under the Income Tax Act."
         },
         "Private Limited Comapny Annual Filling": {
             "essential": "3,799/-",
