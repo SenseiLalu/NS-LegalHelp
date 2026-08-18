@@ -282,7 +282,9 @@
         },
         "LLP Annual Filling": {
             "essential": "4,199/-",
-            "enhanced": "7,999/-"
+            "enhanced": "7,999/-",
+            "essentialLabel": "Suitable for LLPs with basic or NIL compliance requirements.",
+            "enhancedLabel": "Best for LLPs requiring complete compliance including tax filing."
         },
         "NPO/Section-8 Comapny Annual Filling": {
             "essential": "6,499/-",
