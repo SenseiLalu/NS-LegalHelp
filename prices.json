@@ -278,7 +278,9 @@
         },
         "OPC Annual Filling": {
             "essential": "3,799/-",
-            "enhanced": "15,999/-"
+            "enhanced": "15,999/-",
+            "essentialLabel": "For OPC's with Authorized Capital up to ₹1 Lakh and turnover up to ₹20 Lakhs.",
+            "enhancedLabel": "Complete compliance package ideal for OPC's requiring accounting and tax filing support along with ROC annual filing."
         },
         "LLP Annual Filling": {
             "essential": "4,199/-",
