@@ -296,7 +296,9 @@
         },
         "Nidhi Company Annual Filling": {
             "essential": "6,999/-",
-            "enhanced": "23,999/-"
+            "enhanced": "23,999/-",
+            "essentialLabel": "For Nidhi Companies having Authorized Capital up to ₹10 Lakhs and turnover up to ₹20 Lakhs.",
+            "enhancedLabel": "Complete compliance package ideal for Nidhi Companies requiring accounting and tax filing support along with ROC annual filing."
         },
         "IEC Registration": {
             "essential": "2,999/-",
