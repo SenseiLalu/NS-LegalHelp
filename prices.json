@@ -290,7 +290,9 @@
         },
         "NPO/Section-8 Comapny Annual Filling": {
             "essential": "6,499/-",
-            "enhanced": "20,999/-"
+            "enhanced": "20,999/-",
+            "essentialLabel": "For Section 8 Companies with Authorized Capital up to ₹1 Lakh and turnover up to ₹20 Lakhs.",
+            "enhancedLabel": "Complete compliance package ideal for Section 8 Companies requiring accounting and tax filing support along with ROC annual filing."         
         },
         "Nidhi Company Annual Filling": {
             "essential": "6,999/-",
