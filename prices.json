@@ -363,6 +363,12 @@
             "enhanced": "999/-",
             "essentialLabel": "Best for businesses applying for a new TAN.",
             "enhancedLabel": "Best for newly registered businesses requiring both PAN and TAN."
+        },
+        "Add Director": {
+            "essential": "2,199/-",
+            "enhanced": "3,999/-",
+            "essentialLabel": "Best for companies where the new director already has DIN & DSC.",
+            "enhancedLabel": "Best for those who does not have DIN or DSC. Government fees and DSC charges shall be borne by the client side. "
         }
 
 
