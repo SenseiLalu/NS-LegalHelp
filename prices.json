@@ -358,7 +358,7 @@
             "essentialLabel": "Best for individuals applying for a new PAN Card.",
             "enhancedLabel": "Best for businesses and individuals requiring PAN and TAN together."
         },
-        "TAN Application": {
+        "TAN Application": {   
             "essential": "499/-",
             "enhanced": "999/-",
             "essentialLabel": "Best for businesses applying for a new TAN.",
@@ -369,6 +369,12 @@
             "enhanced": "3,999/-",
             "essentialLabel": "Best for companies where the new director already has DIN & DSC.",
             "enhancedLabel": "Best for those who does not have DIN or DSC. Government fees and DSC charges shall be borne by the client side. "
+        },
+        "Add or Remove a Partner in Your LLP": {
+            "essential": "2,099/-",
+            "enhanced": "4,099/-",
+            "essentialLabel": "Best for LLPs where the incoming partner already has DIN and DSC.",
+            "enhancedLabel": "Best for partners who do not have DIN or DSC."
         }
 
 
