@@ -375,6 +375,12 @@
             "enhanced": "4,099/-",
             "essentialLabel": "Best for LLPs where the incoming partner already has DIN and DSC.",
             "enhancedLabel": "Best for partners who do not have DIN or DSC."
+        },
+        "Change in LLP Agreement": {
+            "essential": "2,099/-",
+            "enhanced": "4,099/-",
+            "essentialLabel": "Best for LLPs where the incoming partner already has DIN and DSC.",
+            "enhancedLabel": "Best for partners who do not have DIN or DSC."
         }
 
 
