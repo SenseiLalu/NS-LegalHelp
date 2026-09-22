@@ -377,10 +377,16 @@
             "enhancedLabel": "Best for partners who do not have DIN or DSC."
         },
         "Change in LLP Agreement": {
-            "essential": "2,099/-",
-            "enhanced": "4,099/-",
-            "essentialLabel": "Best for LLPs where the incoming partner already has DIN and DSC.",
-            "enhancedLabel": "Best for partners who do not have DIN or DSC."
+            "essential": "",
+            "enhanced": "2,499/-",
+            "essentialLabel": "",
+            "enhancedLabel": "Best for LLPs that need to update or modify their existing LLP Agreement."
+        },
+        " Change Registered Office Address": {
+            "essential": "4,999/-",
+            "enhanced": "18,999/-",
+            "essentialLabel": "Change of registered office from Same State  ROC (Different City)",
+            "enhancedLabel": "Change of registered office from one state to another state."
         }
 
 
