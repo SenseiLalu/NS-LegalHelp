@@ -399,7 +399,14 @@
             "enhanced": "23,999/-",
             "essentialLabel": "Best for companies looking for complete Company Name Change filing with MCA.",
             "enhancedLabel": "Best for companies requiring complete Company Name Change along with statutory registration updates."
+        },
+         "Increase in Authorized Capital": {
+            "essential": "3,399/-",
+            "enhanced": "4,399/-",
+            "essentialLabel": "Increase Authorized Capital up to ₹10 Lakhs",
+            "enhancedLabel": "Increase Authorized Capital up to ₹25 Lakhs"
         }
+        
 
 
     }
