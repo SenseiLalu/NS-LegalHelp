@@ -387,6 +387,12 @@
             "enhanced": "18,999/-",
             "essentialLabel": "Change of registered office from Same State  ROC (Different City)",
             "enhancedLabel": "Change of registered office from one state to another state."
+        },
+        "Changes in Partnership Firm": {
+            "essential": "999/-",
+            "enhanced": "1,199/-",
+            "essentialLabel": "Best for firms that need to update or modify the existing partnership deed.",
+            "enhancedLabel": "Best for firms where partners are added, removed, or retired."
         }
 
 
