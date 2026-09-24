@@ -393,6 +393,12 @@
             "enhanced": "1,199/-",
             "essentialLabel": "Best for firms that need to update or modify the existing partnership deed.",
             "enhancedLabel": "Best for firms where partners are added, removed, or retired."
+        },
+        "Change Company Name": {
+            "essential": "12,999/-",
+            "enhanced": "23,999/-",
+            "essentialLabel": "Best for companies looking for complete Company Name Change filing with MCA.",
+            "enhancedLabel": "Best for companies requiring complete Company Name Change along with statutory registration updates."
         }
 
 
